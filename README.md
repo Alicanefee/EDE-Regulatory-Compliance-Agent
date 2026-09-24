@@ -11,7 +11,7 @@
 
 > ⚠️ **For demonstration and testing purposes only.** The regulatory corpus is synthetic and the sample submission is fictional. The output is not legal or regulatory advice and not a regulatory clearance. **All legal and regulatory obligations arising from use of this software remain solely with the user.** See [DISCLAIMER.md](DISCLAIMER.md).
 
-**Author**: Ali Can Efe — Dubai, UAE · `ali_canefe@hotmail.com`
+**Author**: Ali Can Efe — Dubai, UAE
 **Sister repo**: [SFDA-Regulatory-Compliance-Agent](https://github.com/Alicanefee/SFDA-Regulatory-Compliance-Agent) (Saudi version)
 
 ---

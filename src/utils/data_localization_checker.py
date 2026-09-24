@@ -190,7 +190,7 @@ class DataLocalizationChecker:
         # In real system, device_chars would come from the technical file
         # For demo, assume connected MRI with default cloud
         device_chars = {
-            "is_connected": True,  # Canon VITRAE MRI is connected
+            "is_connected": True,  # the sample MRI system is connected
             "cloud_provider": submission_data.get("cloud_provider", "azure"),
             "cloud_region": submission_data.get("cloud_region", "uaenorth"),
             "data_types": ["imaging_data", "patient_metadata"],

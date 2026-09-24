@@ -46,7 +46,7 @@
 }
 ```
 
-Example output (Canon VITRAE MRI System — fictional sample):
+Example output (Example MRI System — fictional sample):
 ```json
 {
   "device_type": "MD",

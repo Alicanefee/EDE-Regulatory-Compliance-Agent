@@ -206,7 +206,7 @@ The 10 Saudi behavior rules adapted for the UAE — most are unchanged; the UAE-
 
 ```
 [EDE Classification Result]
-Device: Canon VITRAE MRI System (1.5T)   (fictional sample submission)
+Device: Example MRI System (1.5T)   (fictional sample submission)
 Intended use: Diagnostic imaging via magnetic resonance
 MD class: **III** (per EDE Classification Guidelines, Rule 13 — diagnostic imaging)
 SaMD class: **III** (per Federal Decree-Law No. 38/2024 — AI image analysis)

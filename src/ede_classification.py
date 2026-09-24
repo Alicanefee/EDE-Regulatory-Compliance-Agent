@@ -598,7 +598,7 @@ Classification Guidelines.
   "uncertainty_reason": "<if any>"
 }}
 
-Example output (Canon VITRAE MRI System — fictional sample):
+Example output (Example MRI System — fictional sample):
 {{
   "device_type": "MD",
   "md_class": "III",
@@ -746,8 +746,8 @@ retained for minimum 25 years.
 # CLI (quick test)
 # =========================================================================
 
-def _demo_classify_canon_vitrae() -> ClassificationResult:
-    """Demo: Canon VITRAE MRI System → EDE classification."""
+def _demo_classify_example_mri() -> ClassificationResult:
+    """Demo: Example MRI System → EDE classification."""
     classifier = EDEClassifier()
     return classifier.classify(
         device_type="MD",
@@ -775,8 +775,8 @@ def _demo_classify_canon_vitrae() -> ClassificationResult:
 
 if __name__ == "__main__":
     # Demo run
-    result = _demo_classify_canon_vitrae()
-    print("=== Canon VITRAE MRI System — EDE Classification Demo ===\n")
+    result = _demo_classify_example_mri()
+    print("=== Example MRI System — EDE Classification Demo ===\n")
     print(f"Device type: {result.device_type}")
     print(f"MD class: {result.md_class}")
     print(f"MD rule: {result.md_rule_id}")

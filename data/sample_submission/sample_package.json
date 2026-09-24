@@ -1,12 +1,12 @@
 {
-  "device_name": "Canon Medical VITRAE MRI System (1.5T)",
+  "device_name": "Example MRI System (1.5T)",
   "jurisdiction": "UAE EDE",
-  "applicant": "Canon Medical Systems Middle East FZ-LLC",
+  "applicant": "Example Medical Devices FZ-LLC",
   "submission_date": "2026-09-15",
   "target_emirates": ["federal", "dubai", "abu_dhabi"],
   "lar_mah": {
-    "primary": "Canon Medical Systems Middle East FZ-LLC",
-    "secondary": "Gulf Medical Devices Trading LLC",
+    "primary": "Example Medical Devices FZ-LLC",
+    "secondary": "Example Distributor LLC",
     "note": "Anti-monopoly requirement (Feb 2026) — multiple LAR/MAH mandatory"
   },
   "submitted_documents": [

@@ -77,7 +77,7 @@ UAE requires Arabic text ≥ English prominence (min 1.6mm font). This is a **vi
 
 ### Difference 5: Data localization
 
-UAE Federal Law No. 2 of 2019 requires health data stored in UAE + 25-year retention. Checklist agent flags connected devices that use AWS Bahrain (outside UAE).
+UAE Federal Law No. 2 of 2019 requires health data stored in UAE + 25-year retention. Checklist agent flags connected devices that store data in a cloud region outside the UAE.
 
 ## Defense layers (same as SFDA + UAE additions)
 
@@ -125,7 +125,7 @@ For documents > 1024k tokens (technical files, clinical evaluation reports):
 | Old MOHAP document referenced as rule source | Validator rejects any source != "EDE"; post-Jan 2025 only |
 | Single LAR accepted after Feb 2026 | Checklist agent counts LARs; if < 2, flag critical |
 | Arabic font < 1.6mm not detected | Ingest agent estimates text height via OCR bbox analysis |
-| Cross-border cloud (AWS Bahrain) accepted | Checklist agent rejects with data localization note |
+| Cross-border cloud region (outside the UAE) accepted | Checklist agent rejects with data localization note |
 | Emirate addition missed (e.g. DOH Responsible AI for Abu Dhabi) | Checklist generates per-emirate additions; missing → critical |
 
 ## Production upgrade path

@@ -18,8 +18,8 @@ class TestEDEClassifier:
     def setup_method(self):
         self.classifier = EDEClassifier()
 
-    def test_canon_vitrae_mri_class_iii(self):
-        """Canon VITRAE MRI System → Class III per EDE-MD-R13."""
+    def test_example_mri_class_iii(self):
+        """Example MRI System → Class III per EDE-MD-R13."""
         result = self.classifier.classify(
             device_type="MD",
             intended_use="Diagnostic imaging via magnetic resonance",
