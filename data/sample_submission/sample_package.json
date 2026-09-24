@@ -1,0 +1,30 @@
+{
+  "device_name": "Canon Medical VITRAE MRI System (1.5T)",
+  "jurisdiction": "UAE EDE",
+  "applicant": "Canon Medical Systems Middle East FZ-LLC",
+  "submission_date": "2026-09-15",
+  "target_emirates": ["federal", "dubai", "abu_dhabi"],
+  "lar_mah": {
+    "primary": "Canon Medical Systems Middle East FZ-LLC",
+    "secondary": "Gulf Medical Devices Trading LLC",
+    "note": "Anti-monopoly requirement (Feb 2026) — multiple LAR/MAH mandatory"
+  },
+  "submitted_documents": [
+    {"name": "Device Technical File", "type": "technical_file", "path": "docs/tech_file.pdf"},
+    {"name": "Risk Management File (ISO 14971:2019)", "type": "risk_management", "path": "docs/rmf.pdf"},
+    {"name": "ISO 13485:2016 Certificate (MDSAP)", "type": "qms_certificate", "path": "docs/iso13485.pdf"},
+    {"name": "Clinical Evaluation Report (MEDDEV 2.7/1 rev.4)", "type": "cer", "path": "docs/cer.pdf"},
+    {"name": "IFU English", "type": "ifu", "path": "docs/ifu_en.pdf"},
+    {"name": "IFU Arabic (machine translated)", "type": "ifu", "path": "docs/ifu_ar_mt.pdf"},
+    {"name": "Labelling English", "type": "labelling", "path": "docs/label_en.pdf"},
+    {"name": "LAR/MAH Appointment Letter (MoFA legalized)", "type": "lar_letter", "path": "docs/lar_letter.pdf"},
+    {"name": "Secondary LAR Appointment (Anti-monopoly)", "type": "secondary_lar", "path": "docs/secondary_lar.pdf"},
+    {"name": "Declaration of Conformity", "type": "doc", "path": "docs/doc.pdf"},
+    {"name": "EDE Classification Letter", "type": "classification_letter", "path": "docs/classification.pdf"},
+    {"name": "Cybersecurity Risk Assessment (IEC 81001-5-1)", "type": "cybersecurity", "path": "docs/cyber.pdf"},
+    {"name": "Software Bill of Materials (SBOM)", "type": "sbom", "path": "docs/sbom.pdf"},
+    {"name": "Threat Model", "type": "threat_model", "path": "docs/threat_model.pdf"},
+    {"name": "DOH Responsible AI Compliance Statement", "type": "ai_compliance", "path": "docs/doh_ai.pdf"},
+    {"name": "Data Localization Statement (Law 2/2019)", "type": "data_localization", "path": "docs/data_loc.pdf"}
+  ]
+}

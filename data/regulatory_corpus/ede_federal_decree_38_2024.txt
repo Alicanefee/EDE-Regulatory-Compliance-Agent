@@ -1,0 +1,191 @@
+[FEDERAL-DECREE-LAW-38-2024-1.1]
+UAE Federal Decree-Law No. 38 of 2024, Article 1.1 — Short Title
+This Decree-Law may be cited as the "Federal Decree-Law on Medical
+Products, the Pharmacy Profession, and Pharmaceutical Establishments
+(2024)" and shall come into force on 2 January 2025.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-1.2]
+UAE Federal Decree-Law No. 38 of 2024, Article 1.2 — Definitions
+"Establishment" means the Emirates Drug Establishment (EDE), the federal
+authority responsible for regulating medical products, including medical
+devices, in vitro diagnostics, pharmaceuticals, and herbal products.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-2.1]
+UAE Federal Decree-Law No. 38 of 2024, Article 2.1 — Registration Application
+Application for medical device registration shall include: (a) device
+description and intended purpose; (b) risk classification per EDE
+Classification Guidelines; (c) Declaration of Conformity (DoC); (d)
+technical file; (e) IFU in Arabic and English (Arabic prominence
+required); (f) labelling in Arabic and English; (g) clinical evaluation
+report for Class III/IV; (h) risk management file per ISO 14971:2019.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-2.2]
+UAE Federal Decree-Law No. 38 of 2024, Article 2.2 — Local Authorized Representative
+Applicant must appoint a UAE-based Local Authorized Representative (LAR)
+or Marketing Authorization Holder (MAH) holding a valid EDE Medical
+Device Establishment License (MDEL). The LAR/MAH's appointment letter
+must be legalized by UAE Ministry of Foreign Affairs (MoFA).
+
+---
+[FEDERAL-DECREE-LAW-38-2024-2.3]
+UAE Federal Decree-Law No. 38 of 2024, Article 2.3 — Arabic Language Requirements
+All patient-facing documentation (IFU, labelling, patient leaflets) must
+be provided in both Arabic and English. The Arabic version must be at
+least as prominent as the English version, with minimum text height of
+1.6mm. The Arabic version must be reviewed by a certified Arabic medical
+translator and stamped by the LAR/MAH.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-2.4]
+UAE Federal Decree-Law No. 38 of 2024, Article 2.4 — Cybersecurity Requirements
+Cybersecurity documentation is required for connected medical devices:
+(a) cybersecurity risk assessment per IEC 81001-5-1; (b) software bill
+of materials (SBOM); (c) threat model; (d) post-market cybersecurity
+plan (PMCP). AI-enabled devices are subject to enhanced review per the
+DOH Responsible AI Standard (October 2025).
+
+---
+[FEDERAL-DECREE-LAW-38-2024-2.5]
+UAE Federal Decree-Law No. 38 of 2024, Article 2.5 — Post-Market Surveillance
+Post-Market Surveillance System (PMSS) documentation must be submitted.
+Must include: vigilance reporting procedure (adverse events within 5
+days for death/serious injury), trend reporting (quarterly for Class
+III/IV), periodic safety update reports (PSUR) — every 2 years for
+high-risk devices.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-2.6]
+UAE Federal Decree-Law No. 38 of 2024, Article 2.6 — Data Protection
+Data protection compliance statement required for devices processing
+personal health data. Must reference UAE Federal Decree-Law No. 45 of
+2021 (PDPL) and Federal Law No. 2 of 2019 (ICT in Health): (a) data
+flow diagram; (b) lawful basis for processing; (c) data retention
+policy (minimum 25 years for medical records); (d) data localization
+requirement — health data must be stored within UAE.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-3.1]
+UAE Federal Decree-Law No. 38 of 2024, Article 3.1 — Anti-Monopoly Mechanism
+Effective February 2026, every medical device must have multiple LAR/MAH
+assigned. The single-distributor model is abolished. Manufacturers must
+appoint at least two LAR/MAH with valid EDE licenses, ensuring geographic
+coverage of the target emirates.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-3.2]
+UAE Federal Decree-Law No. 38 of 2024, Article 3.2 — UAE PASS Authentication
+All applications to EDE must be submitted via the EDE digital portal
+(www.ede.gov.ae) using UAE PASS authentication. The LAR/MAH must have
+an active UAE PASS account. Application forms must be signed and stamped
+digitally.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-4.1]
+UAE Federal Decree-Law No. 38 of 2024, Article 4.1 — Fees and Timelines
+Medical device registration fee: AED 5,000 + AED 100 application fee.
+Renewal fee: AED 250. Registration certificate is valid for 5 years.
+Standard evaluation timeline: 45 business days from complete submission.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-4.2]
+UAE Federal Decree-Law No. 38 of 2024, Article 4.2 — Renewal
+Renewal application must be submitted at least 30 days before certificate
+expiry. Late renewal: AED 250 + late fee AED 100. Expired certificate
+requires full re-registration.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-5.1]
+UAE Federal Decree-Law No. 38 of 2024, Article 5.1 — Free Sale Certificate
+Free Sale Certificate (FSC) from country of origin must be submitted,
+legalized by UAE Embassy in the country of origin. FSC must be valid and
+not older than 6 months at time of submission.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-5.2]
+UAE Federal Decree-Law No. 38 of 2024, Article 5.2 — Manufacturer Site Registration
+Manufacturers importing to UAE for the first time must register their
+manufacturing site with EDE. Site registration is valid for 5 years and
+requires ISO 13485:2016 certification. MDSAP (Medical Device Single
+Audit Programme) reports are accepted as QMS evidence.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-6.1]
+UAE Federal Decree-Law No. 38 of 2024, Article 6.1 — SaMD Classification
+Software as a Medical Device (SaMD) is classified from Class I to Class IV,
+following the same GHTF principles as MD. AI-enabled devices are subject
+to enhanced review per the DOH Responsible AI Standard (October 2025).
+
+---
+[FEDERAL-DECREE-LAW-38-2024-6.2]
+UAE Federal Decree-Law No. 38 of 2024, Article 6.2 — Wearable and AI Devices
+Wearable and AI-based devices are explicitly defined as "Medical Equipment"
+under this Decree-Law. They are subject to the same registration, labelling,
+and post-market surveillance requirements as traditional medical devices.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-7.1]
+UAE Federal Decree-Law No. 38 of 2024, Article 7.1 — Vigilance Reporting
+Adverse events involving death or serious injury must be reported to EDE
+within 5 days of awareness. Field Safety Corrective Actions (FSCA) must
+be reported within 5 days. The Field Safety Notice (FSN) must be provided
+to affected customers.
+
+---
+[FEDERAL-DECREE-LAW-38-2024-7.2]
+UAE Federal Decree-Law No. 38 of 2024, Article 7.2 — Periodic Safety Update Reports
+PSUR (Periodic Safety Update Report) must be submitted for high-risk
+devices (Class III/IV MD, Class C/D IVD) every 2 years for the lifetime
+of the device. PSUR must include: adverse event summary, trend analysis,
+benefit-risk reassessment, and CAPA (corrective and preventive actions).
+
+---
+[FEDERAL-DECREE-LAW-38-2024-8.1]
+UAE Federal Decree-Law No. 38 of 2024, Article 8.1 — Federal Decree-Law 27/2026
+Effective July 2026, Good Pharmacovigilance Practices (GVP) standard
+applies to all medical device post-market surveillance. Manufacturers
+must maintain a Qualified Person for Pharmacovigilance (QPPV).
+
+---
+[FEDERAL-DECREE-LAW-38-2024-9.1]
+UAE Federal Decree-Law No. 38 of 2024, Article 9.1 — Multi-Emirate Layer
+EDE is the federal authority. However, emirate-level health authorities may
+impose additional requirements: Dubai Health Authority (DHA) for Dubai,
+Department of Health (DOH) for Abu Dhabi, Dubai Healthcare City Authority
+(DHCR) for Dubai Healthcare City free zone. Federal EDE approval is
+mandatory for sale anywhere in UAE.
+
+---
+[DOH-RAI-2025-1]
+Abu Dhabi Department of Health — Responsible AI Standard (October 2025)
+AI-enabled medical devices marketed in Abu Dhabi must additionally
+comply with: (a) algorithm transparency documentation; (b) bias
+assessment report; (c) ongoing performance monitoring plan; (d)
+clinician feedback mechanism; (e) patient consent for AI-assisted
+decisions. Failure to comply → registration rejection in Abu Dhabi
+emirate (still acceptable federally via EDE).
+
+---
+[FEDERAL-LAW-2-2019-3.1]
+UAE Federal Law No. 2 of 2019 — ICT in Health, Article 3.1
+Health information generated or processed by medical devices must be
+stored within UAE territory. Cross-border data transfer requires
+explicit patient consent and EDE approval. Medical records must be
+retained for minimum 25 years.
+
+---
+[FEDERAL-LAW-2-2019-3.2]
+UAE Federal Law No. 2 of 2019 — ICT in Health, Article 3.2
+Health information systems must implement technical and organizational
+measures to ensure confidentiality, integrity, and availability of
+health data. Encryption is required for data in transit and at rest.
+
+---
+[PDPL-45-2021-1.1]
+UAE Federal Decree-Law No. 45 of 2021 (PDPL), Article 1.1
+Health data is classified as "sensitive personal data" under the Personal
+Data Protection Law. Processing of health data requires explicit consent
+from the data subject, except where processing is necessary for medical
+diagnosis or treatment provided by healthcare professionals.

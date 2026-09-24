@@ -1,0 +1,156 @@
+[EDE-CL-GHTF-R1]
+EDE Classification Guidelines (2024 update), GHTF Rule 1
+Surgically invasive medical devices intended for transient use (less
+than 60 minutes) are classified as Class II. Examples: surgical forceps,
+retractors, infusion sets, biopsy needles.
+
+---
+[EDE-CL-GHTF-R2]
+EDE Classification Guidelines (2024 update), GHTF Rule 2
+Surgically invasive medical devices intended for long-term use (more
+than 30 days) or implantable devices are classified as Class II, unless
+they are intended to be implanted in the teeth (Class II) or to contact
+the central nervous system or central circulation (Class IV).
+
+---
+[EDE-CL-GHTF-R3]
+EDE Classification Guidelines (2024 update), GHTF Rule 3
+Reusable surgical instruments (devices used in surgery but not in direct
+contact with the patient) are classified as Class I.
+
+---
+[EDE-CL-GHTF-R4]
+EDE Classification Guidelines (2024 update), GHTF Rule 4
+Non-surgically invasive devices intended for transient use via body
+orifice (e.g. ear speculum, dental dam) are classified as Class I,
+unless they are intended for long-term use (Class II).
+
+---
+[EDE-CL-GHTF-R5]
+EDE Classification Guidelines (2024 update), GHTF Rule 5
+Non-invasive devices that come into contact with body fluids (e.g.
+collection bags, urine drains) are classified as Class II, unless they
+are intended for transient use only (Class I).
+
+---
+[EDE-CL-GHTF-R6]
+EDE Classification Guidelines (2024 update), GHTF Rule 6
+Non-invasive devices intended for delivering substances to the body
+(e.g. irrigation sets, drug delivery tubing) are classified as Class II
+if the substance is intended to modify or be absorbed by the body.
+
+---
+[EDE-CL-GHTF-R7]
+EDE Classification Guidelines (2024 update), GHTF Rule 7
+Non-invasive devices that come into contact with injured skin (e.g.
+wound dressing) are classified as Class I, unless they are intended
+for wounds which breach the dermis and cannot be healed by secondary
+intent (Class II).
+
+---
+[EDE-CL-GHTF-R8]
+EDE Classification Guidelines (2024 update), GHTF Rule 8
+Non-invasive devices not covered by Rules 5-7 are classified as Class I
+(default for non-invasive, low-risk devices).
+
+---
+[EDE-CL-GHTF-R9]
+EDE Classification Guidelines (2024 update), GHTF Rule 9
+Active therapeutic devices that deliver energy (e.g. electrotherapy,
+ultrasound therapy) are classified as Class II, unless they are
+intended to control, monitor, or directly influence vital body
+functions (Class III).
+
+---
+[EDE-CL-GHTF-R10]
+EDE Classification Guidelines (2024 update), GHTF Rule 10
+Active diagnostic devices that monitor vital physiological parameters
+where the nature of variations could result in immediate danger to
+the patient (e.g. anesthesiology monitors, ICU monitors) are
+classified as Class III.
+
+---
+[EDE-CL-GHTF-R11]
+EDE Classification Guidelines (2024 update), GHTF Rule 11
+Software (embedded, not standalone SaMD) used in medical devices is
+classified based on the device it controls. Standalone SaMD has its
+own classification per Federal Decree-Law No. 38 of 2024 Article 6.1.
+
+---
+[EDE-CL-GHTF-R12]
+EDE Classification Guidelines (2024 update), GHTF Rule 12
+Active devices that administer or remove substances from the body
+(e.g. infusion pumps, dialysis) are classified as Class II, unless
+the administration is done in a manner that is potentially hazardous
+(Class III).
+
+---
+[EDE-CL-GHTF-R13]
+EDE Classification Guidelines (2024 update), GHTF Rule 13
+Active diagnostic devices that emit non-ionizing radiation (such as
+magnetic resonance, ultrasound) are classified as Class III. This
+includes MRI systems, ultrasound scanners, and diagnostic lasers.
+AI-enabled diagnostic imaging software embedded in such devices may
+also be subject to SaMD classification per Federal Decree-Law No. 38.
+
+---
+[EDE-CL-GHTF-R14]
+EDE Classification Guidelines (2024 update), GHTF Rule 14
+Active diagnostic devices that emit ionizing radiation (X-ray, CT,
+fluoroscopy) are classified as Class III. Required radiation dose
+documentation and ALARA (As Low As Reasonably Achievable) justification.
+
+---
+[EDE-CL-GHTF-R15]
+EDE Classification Guidelines (2024 update), GHTF Rule 15
+Devices used for contraception or prevention of sexually transmitted
+diseases are classified as Class III, unless they are implantable or
+for long-term use (Class IV).
+
+---
+[EDE-CL-GHTF-R16]
+EDE Classification Guidelines (2024 update), GHTF Rule 16
+Implantable contraceptive devices or those preventing STDs are
+classified as Class IV.
+
+---
+[EDE-CL-GHTF-R17]
+EDE Classification Guidelines (2024 update), GHTF Rule 17
+Disinfecting or sterilizing devices specifically intended for invasive
+medical devices are classified as Class II.
+
+---
+[EDE-CL-GHTF-R18]
+EDE Classification Guidelines (2024 update), GHTF Rule 18
+Devices utilizing animal or human tissues or cells (e.g. collagen
+implants, biological dressings) that are non-viable or rendered
+non-viable are classified as Class III, unless they are intended to
+contact intact skin only (Class I).
+
+---
+[EDE-CL-GHTF-R19]
+EDE Classification Guidelines (2024 update), GHTF Rule 19
+Blood bags are classified as Class II (with anticoagulant) or Class I
+(without anticoagulant).
+
+---
+[EDE-CL-GHTF-R20]
+EDE Classification Guidelines (2024 update), GHTF Rule 20
+Devices incorporating or consisting of medicinal substances (e.g.
+drug-eluting stents, heparin-coated catheters) are classified as
+Class III, unless the substance is a high-risk biological (Class IV).
+
+---
+[EDE-CL-GHTF-R21]
+EDE Classification Guidelines (2024 update), GHTF Rule 21
+Implantable devices that come into contact with the central nervous
+system, central circulation, or whose failure could lead to death or
+serious deterioration of health, are classified as Class IV. Examples:
+heart valves, neurostimulators, vascular stents in central circulation.
+
+---
+[EDE-CL-GHTF-R22]
+EDE Classification Guidelines (2024 update), GHTF Rule 22
+Implantable devices intended for long-term use in teeth, eye, or non-
+central body tissues (e.g. breast implants, intraocular lenses, dental
+implants) are classified as Class III.

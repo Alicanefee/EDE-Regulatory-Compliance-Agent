@@ -1,0 +1,99 @@
+# EDE Regulatory Compliance Agent — State Machine Definition
+# See docs/architecture.md for the design.
+#
+# CRITICAL RULE:
+#   The LLM does NOT pick which agent to call. The state machine does.
+
+states:
+  UPLOAD:
+    description: "User uploads submission package (JSON manifest + PDFs)"
+    entry_condition: "user submits file(s)"
+    agent: ingest
+    output: standard_chunks
+    next: INGEST
+    on_error: MANUAL_REVIEW
+
+  INGEST:
+    description: "Parse uploaded files, extract text, chunk, detect language"
+    entry_condition: "files uploaded"
+    agent: ingest
+    input: uploaded_files
+    output: standard_chunks
+    next: CLASSIFY
+    on_error: MANUAL_REVIEW
+
+  CLASSIFY:
+    description: "Determine device risk class per MDS-G008"
+    entry_condition: "documents ingested"
+    agent: classifier
+    input: context_packet  # includes device_intended_use + retrieved_rules
+    output: class_result  # {class, rule_id, justification, is_uncertain}
+    next: CONFIRM_CLASS
+    on_error: MANUAL_REVIEW
+    on_uncertain: MANUAL_REVIEW  # classifier flagged is_uncertain=true
+
+  CONFIRM_CLASS:
+    description: "User confirms classification (or requests re-classification)"
+    entry_condition: "classification complete"
+    agent: orchestrator
+    action: ask_user_confirmation
+    next: CHECKLIST
+    on_reclassify: CLASSIFY  # max 1 reclassification, then MANUAL_REVIEW
+    on_error: MANUAL_REVIEW
+
+  CHECKLIST:
+    description: "Generate per-class document checklist"
+    entry_condition: "class confirmed"
+    agent: checklist
+    input: class
+    output: required_documents  # list with source authority
+    next: COLLECT
+    on_error: MANUAL_REVIEW
+
+  COLLECT:
+    description: "User submits documents per checklist"
+    entry_condition: "checklist generated"
+    agent: orchestrator
+    action: ask_user_for_documents
+    next: VALIDATE
+    on_missing_documents: COLLECT  # loop until all mandatory docs collected
+    max_loops: 3  # then escalate to MANUAL_REVIEW
+
+  VALIDATE:
+    description: "Validate each submitted document against regulatory rules"
+    entry_condition: "all mandatory documents collected"
+    agent: evidence_validator
+    input: user_evidence + retrieved_rules
+    output: findings  # list of {clause_id, verdict, evidence_cited, suggested_fix}
+    next: REPORT
+    on_error: MANUAL_REVIEW
+
+  REPORT:
+    description: "Generate final validation report with audit trail"
+    entry_condition: "validation complete"
+    agent: orchestrator
+    input: findings + version_snapshot + hash_chain
+    output: markdown_report  # P0/P1/P2/P3 findings grouped
+    next: DONE
+    on_error: MANUAL_REVIEW
+
+  DONE:
+    description: "Process complete — report delivered to user"
+    entry_condition: "report generated"
+    agent: excel_logger
+    action: finalize_audit_log
+    next: null  # terminal state
+
+  MANUAL_REVIEW:
+    description: "Fallback for any state failure or classifier uncertainty"
+    entry_condition: "error or uncertainty detected"
+    agent: orchestrator
+    action: route_to_human
+    next: null  # terminal — user must intervene
+
+# State machine rules:
+# 1. LLM does NOT pick which agent to call. State machine does.
+# 2. on_error always routes to MANUAL_REVIEW (never silent failure).
+# 3. Loops (COLLECT, CONFIRM_CLASS) have max_loops to prevent infinite cycling.
+# 4. Each state transition is logged to Excel with hash chain.
+# 5. version_snapshot is captured at CLASSIFY state and carried through to REPORT.

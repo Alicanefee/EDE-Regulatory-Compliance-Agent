@@ -1,0 +1,26 @@
+# Core dependencies — EDE Regulatory Compliance Agent
+# Tested on Python 3.11+
+
+# Core (required to run the CLI and tests)
+pyyaml>=6.0            # state machine definition
+openpyxl>=3.1.0        # Excel audit log with hash chain
+python-dotenv>=1.0.0
+click>=8.1.0
+rich>=13.7.0
+pytest>=8.0
+
+# LLM + rerank (optional — used when COHERE_API_KEY is set)
+cohere>=5.5.0
+
+# Vector store + embeddings (optional — falls back to in-memory / hash embedder)
+chromadb>=0.5.0
+# FlagEmbedding>=1.2.0   # BGE-M3; heavy, install only when needed
+
+# Document processing (optional — used by the ingest agent and Arabic prominence checker)
+pypdf>=4.0.0
+pdfplumber>=0.11.0
+python-docx>=1.1.0
+# pytesseract>=0.3.10 + Pillow>=10.0  # OCR; also requires the Tesseract binary with the Arabic pack
+
+# Regulatory watcher (optional)
+requests>=2.31.0

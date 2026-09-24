@@ -1,0 +1,3 @@
+# Web UI dependencies (in addition to main requirements.txt)
+streamlit>=1.30.0
+altair>=5.0.0  # streamlit dependency

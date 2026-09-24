@@ -1,0 +1,31 @@
+[IMDRF-MD-N66]
+IMDRF — Medical Devices Regulatory Harmonization, N66 R1, Section 4.4
+Essential Principles of Safety and Performance (EPSP) checklist must be
+completed, demonstrating how the device meets each essential principle. The
+checklist must reference the specific evidence (test report, design dossier,
+or risk management file) for each principle.
+
+---
+[IMDRF-MD-N66.1]
+IMDRF — Medical Devices Regulatory Harmonization, N66 R1, Section 4.5
+Summary Technical Documentation (STED) must follow the IMDRF STED format
+including: (a) device description; (b) intended use; (c) previous generation
+comparison; (d) intended purpose statements; (e) alternative practices
+comparison; (f) reference standards; (g) risk analysis summary; (h) review
+of verification and validation activities.
+
+---
+[IMDRF-MD-N66.2]
+IMDRF — Medical Devices Regulatory Harmonization, N66 R1, Section 4.6
+Clinical evidence must follow IMDRF Clinical Evidence framework (GRRP N12):
+(a) clinical evaluation plan; (b) clinical data appraisal; (c) clinical
+evaluation report; (d) literature search protocol with reproducible search
+strategy; (e) equivalence analysis if relying on predicate device.
+
+---
+[IMDRF-MD-N66.3]
+IMDRF — Medical Devices Regulatory Harmonization, N66 R1, Section 4.7
+Post-market surveillance documentation must follow IMDRF GRRP N14 framework:
+(a) PMS plan defining proactive and reactive activities; (b) PMS report
+analysing collected data with conclusions on benefit-risk profile; (c)
+corrective and preventive actions (CAPA) summary.
