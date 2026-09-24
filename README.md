@@ -176,6 +176,10 @@ EDE-Regulatory-Compliance-Agent/
 
 Full terms: [DISCLAIMER.md](DISCLAIMER.md).
 
+## 👤 Author
+
+**Ali Can Efe** — Medical device industry expert and advisor with 13 years across product management, regulatory compliance and AI-enabled imaging in the Middle East, Turkey & Africa (META). Based in Dubai, UAE.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
